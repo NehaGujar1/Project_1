@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+.img_food{
+    width:  30vw;
+    background-color: grey;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 5;
+}
+h1{
+    text-align: center;
+}
+.img_1{
+    display: grid;
+    grid-template-columns: 28% 28% 28%;
+    justify-content: space-around;
+    padding: 0%;
+    gap: 3%;
+}
+@keyframes example{
+    0%{width: 30vw;}
+    50%{width: 20vw;}
+    100%{width: 30vw;}
+}

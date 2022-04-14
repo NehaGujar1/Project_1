@@ -1,0 +1,48 @@
+*{
+    
+    color: white;
+    background-image: linear-gradient(to right,black,grey);
+}
+.a1{
+    height: 40%;
+}
+h1{
+    vertical-align: middle;
+    font-family: 'Lobster','san serif';
+    animation: anim1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes anim1 {
+    0%{text-align: center;}
+    25%{text-align: left;}
+    50%{text-align: center;}
+    75%{text-align: right;}
+    100%{text-align: center;}
+}
+.a3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-weight: bold;
+    background-image: none;
+    }
+body .a2 .b3:hover{
+    font-size: large;
+    text-decoration:line-through;
+}
+body .a2 .b1:hover{
+    font-size: large;
+    text-decoration: line-through;
+}
+body .a2 .b2:hover{
+    font-size: large;
+    text-decoration: line-through;
+}
+body .a2 .b4:hover{
+    font-size: large;
+}
+.a2{
+    background-color: black;
+}
